@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webleb</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <section>
+    <div class="container flow-content">
+      <h1 class="section-title">Just Greek.</h1>
+      <ul role="list" class="grid">
+        <li>
+          <article class="card" data-visible="false">
+            <div class="card__front flow-content">
+              <img class="card__img mx-auto" src="/img/id.png" />
+              <div class="flow-content" data-spacing="sm">
+                <p class="card__name">Ivan Dolinsky</p>
+                <p class="card__position">Developer</p>
+              </div>
+            </div>
+            <div class="card__back flow-content">
+              <p class="card__name">Ivan Dolinsky</p>
+              <q>I created an army, as not many people in the Roblox community have done such a thing.</q>
+              <ul role="list" class="card__social flex-group">
+                <li>
+                  <a href="https://vk.com/luganskguy">
+                    <i class="fa-brands fa-vk "></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCLIwGj84IW8oJAgeRySLSHA">
+                    <i class="fa-brands fa-youtube "></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <footer class="card__footer">
+              <button data-card-controller class="card__toggle">
+                <i class="fa-solid fa-plus card__toggle-icon"></i>
+              </button>
+            </footer>
+          </article>
+        </li>
+        <li>
+          <article class="card" data-visible="false">
+            <div class="card__front flow-content">
+              <img class="card__img mx-auto" src="/img/as.png" />
+              <div class="flow-content" data-spacing="sm">
+                <p class="card__name">Alexandr Starostin</p>
+                <p class="card__position">Junior Developer or The Commander of the Russian Army</p>
+              </div>
+            </div>
+            <div class="card__back flow-content">
+              <p class="card__name">Alexandr Starostin</p>
+              <q>No commentary. (idk to write)</q>
+              <ul role="list" class="card__social flex-group">
+                <li>
+                  <a href="https://vk.com/starostin_alexandermusician">
+                    <i class="fa-brands fa-vk"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <footer class="card__footer">
+              <button data-card-controller class="card__toggle">
+                <i class="fa-solid fa-plus card__toggle-icon"></i>
+              </button>
+            </footer>
+          </article>
+      </ul>
+    </div>
+  </section>
+  <script src="/js/main.js"></script>
+</body>
+</html>
